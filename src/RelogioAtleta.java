@@ -8,6 +8,13 @@ public class RelogioAtleta {
 		int FCA;
 		int Oxe;
 		
+		System.out.println("Informe a frequencia cardiaca (repouso):");
+		FCR = ler.nextInt();
+		System.out.println("Informe a frequencia cardiaca (atual):");
+		FCA = ler.nextInt();
+		System.out.println("Informe a oxigenação:");
+		Oxe = ler.nextInt();
+		
 		
 		if (FCA > 3* FCR || Oxe < 95 )
 		{
